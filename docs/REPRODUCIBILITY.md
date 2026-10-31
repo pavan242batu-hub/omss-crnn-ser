@@ -32,9 +32,7 @@ The model and training smoke tests ran with:
 
 These identify the tested environment, not a complete dependency lockfile.
 
-Additional package versions, capture-time hardware information, and a
-full Colab package snapshot are recorded in
-[the environment record](environment/README.md).
+Additional package versions, capture-time hardware information, and a full Colab package snapshot are recorded in [the environment record](environment/README.md). These supplementary records describe the environment at capture time; they do not establish the hardware used for every earlier verification check. A fresh installation from these records has not been tested, and the package snapshot is not a validated dependency lockfile. 
 A fresh installation from those records has not been tested. 
 Other dependency versions and hardware details were not captured in the
 verification record summarized here.
