@@ -1,5 +1,31 @@
 # OMSS–CRNN Speech Emotion Recognition
 
+## Reproducibility and verification
+
+See [Reproducibility and verification status](docs/REPRODUCIBILITY.md)
+for commands, required inputs, tested settings, and known limitations.
+
+Completed checks include:
+
+- Exact reconstruction of all 1,104 noisy and 1,104 OMSS feature arrays
+  in the existing 400-frame caches.
+- Construction and inference checks for all seven model configurations.
+- Cache-alignment and OriginalID-separation checks for all five outer folds.
+- One successful one-epoch end-to-end training smoke test for
+  `fusion_guided`, fold 0, seed 42.
+- SHA-256 verification that the four scripts downloaded from GitHub
+  match the tested local versions.
+
+These checks do not establish full cross-validation performance or
+reproduction of manuscript results.
+
+The supplied assignments omit neutral examples from some validation
+and test partitions. The historical four-label macro-recall calculation
+is preserved; see the reproducibility document for its implications.
+
+The feature extractor requires supplied noisy and already-enhanced OMSS
+audio. It does not perform OMSS enhancement. 
+
 Research code for the manuscript:
 
 “Modulation-Domain Enhanced Speech Emotion Recognition
