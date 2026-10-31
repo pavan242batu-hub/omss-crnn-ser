@@ -125,7 +125,7 @@ The model and training smoke tests ran with:
 - TensorFlow 2.21.0
 - Keras 3.13.2
 
-This is a partial environment record, not a complete dependency lockfile.
+Additional package versions, capture-time hardware information, and a full Colab package snapshot are available in [the environment record](docs/environment/README.md). These records describe the environment at capture time; they do not establish the hardware used for every earlier verification check. A fresh installation from these records has not been tested, and the package snapshot is not a validated dependency lockfile.
 
 The successful one-epoch training run emitted a TensorFlow
 layout-optimizer diagnostic. Training completed and saved-output checks
@@ -144,7 +144,7 @@ Redistribution will depend on the applicable source permissions.
 
 ## Remaining work
 
-- Complete dependency and hardware records.
+- Validate a fresh installation using the captured environment records and document any dependency or hardware constraints. 
 - Document dataset selection and reconstruction details.
 - Establish mappings between historical runs and manuscript results.
 - Verify training beyond the single completed one-epoch configuration.
