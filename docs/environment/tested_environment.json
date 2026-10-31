@@ -1,0 +1,50 @@
+{
+  "captured_at_utc": "2026-10-31T11:22:00.781566+00:00",
+  "scope": "Current Colab environment after the completed tests; not a complete historical training-environment record.",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "packages": {
+    "tensorflow": "2.21.0",
+    "keras": "3.13.2",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "numba": "0.61.2",
+    "h5py": "3.14.0"
+  },
+  "tensorflow_runtime_version": "2.21.0",
+  "tensorflow_build_info": {
+    "cpu_compiler": "clang",
+    "cuda_compute_capabilities": [
+      "sm_60",
+      "sm_70",
+      "sm_80",
+      "sm_89",
+      "compute_90"
+    ],
+    "cuda_version": "12.5.1",
+    "cudnn_version": "9",
+    "is_cuda_build": true,
+    "is_rocm_build": false,
+    "is_tensorrt_build": false
+  },
+  "tensorflow_physical_devices": [
+    {
+      "name": "/physical_device:CPU:0",
+      "type": "CPU"
+    },
+    {
+      "name": "/physical_device:GPU:0",
+      "type": "GPU"
+    }
+  ],
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "Tesla T4, 580.82.07, 15360 MiB",
+    "stderr": ""
+  }
+}
