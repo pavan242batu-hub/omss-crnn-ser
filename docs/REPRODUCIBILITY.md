@@ -31,6 +31,11 @@ The model and training smoke tests ran with:
 - Keras 3.13.2
 
 These identify the tested environment, not a complete dependency lockfile.
+
+Additional package versions, capture-time hardware information, and a
+full Colab package snapshot are recorded in
+[the environment record](environment/README.md).
+A fresh installation from those records has not been tested. 
 Other dependency versions and hardware details were not captured in the
 verification record summarized here.
 
