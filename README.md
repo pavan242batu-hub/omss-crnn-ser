@@ -1,2 +1,73 @@
-# omss-crnn-ser
-Research implementation of OMSS-based speech emotion recognition, CRNN integration, and grouped statistical evaluation.
+# OMSS–CRNN Speech Emotion Recognition
+
+Research code for the manuscript:
+
+“Modulation-Domain Enhanced Speech Emotion Recognition
+for IoT Edge Devices: An OMSS and CRNN-Attention Approach.”
+
+## Current status
+
+This private repository is being prepared and verified.
+
+It will organize the recognition, training, and evaluation code
+associated with the manuscript. It is not yet a verified,
+complete reproduction package.
+
+## Pipeline
+
+Noisy speech and corresponding OMSS-enhanced speech
+→ MFCC extraction
+→ single-stream or paired-stream CRNN
+→ temporal aggregation
+→ emotion prediction
+→ grouped evaluation.
+
+## Implementation boundary
+
+The recognition and evaluation components are implemented
+in Python.
+
+The currently inspected OMSS source is MATLAB-based.
+A validated Python port of OMSS is not currently claimed.
+
+The exact historical OMSS source version used to generate
+the complete enhanced dataset has not been fully verified.
+
+## Dataset and evaluation scope
+
+- 69 original utterances from an IEMOCAP Session-1 subset.
+- Four emotion classes: angry, frustrated, neutral, and sad.
+- Four noise conditions and four SNR levels.
+- 16 acoustic variants per original utterance.
+- 1,104 recordings per input condition.
+- Original-utterance-grouped evaluation.
+
+This evaluation does not establish speaker-independent
+generalization.
+
+## Experimental configurations
+
+The manuscript contains separate experiments with different
+input lengths, model configurations, and metric summaries.
+
+These experiments will be documented separately rather than
+treated as a single interchangeable configuration.
+
+## Data availability
+
+Raw audio is not included in this repository.
+
+Dataset sources, selected recording identifiers, manifests,
+and reconstruction instructions will be documented separately.
+Redistribution will depend on the applicable source permissions.
+
+## Reproducibility
+
+Dependency versions, verified execution commands, and mappings
+between scripts and manuscript results will be added after
+checking the selected implementation files.
+
+## Access
+
+This repository is private and intended for authorized
+research collaborators during preparation.
