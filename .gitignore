@@ -218,3 +218,43 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+config.local.yaml
+
+# Audio recordings and dataset copies
+*.wav
+*.flac
+*.mp3
+data/
+datasets/
+
+# Generated feature caches and prediction arrays
+feature_cache/
+*.npz
+*.npy
+
+# Trained models and exported models
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.pt
+*.pth
+*.onnx
+
+# Large archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
