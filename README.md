@@ -138,7 +138,7 @@ Raw audio and feature caches are not included in this repository.
 
 Verified manifest structure, noise/SNR coverage, label mapping, and outer-fold assignment counts are documented in [Dataset inputs and verification status](docs/DATASET_INPUTS.md). This is an input-structure record, not a complete dataset-reconstruction guide.
 
-Dataset-source details, selected recording identifiers, and reconstruction instructions remain to be completed. Users must supply the required audio, manifest, and fold assignments to run the documented commands.
+Dataset-source details, selected recording identifiers, and reconstruction instructions remain to be completed. See [Dataset inputs and verification status](DATASET_INPUTS.md) for the audited manifest structure, noise/SNR coverage, label mapping, and outer-fold assignment counts. That document records input checks; it is not a complete dataset-reconstruction guide. Users must supply the required audio, manifest, and fold assignments to run the documented commands.
 
 Redistribution will depend on the applicable source permissions.
 
