@@ -1,6 +1,9 @@
 # MFCC Cache Verification
 
 ## Status
+This document records the earlier sample-only verification. A later full-cache comparison using the portable extractor exactly reproduced all 1,104 noisy and all 1,104 OMSS arrays at 400 frames, with maximum absolute difference zero. See [Reproducibility and verification status](REPRODUCIBILITY.md) for the later verification scope and limitations.
+
+The sample procedure, environment, and results below are retained as the record of the earlier check.
 
 A six-recording sample check passed for the existing
 400-frame noisy and OMSS feature caches.
@@ -86,7 +89,7 @@ for every sampled comparison.
 
 ## Limitations
 
-- The remaining cache entries have not yet been checked.
+- The remaining cache entries were not checked in this earlier sample verification; the later full-cache comparison is documented in the reproducibility guide. 
 - This test does not verify the main 128-frame feature caches.
 - This test does not establish historical OMSS implementation
   provenance.
