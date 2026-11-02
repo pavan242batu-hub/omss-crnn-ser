@@ -78,6 +78,16 @@ The exact historical OMSS source version used to generate the complete
 enhanced dataset has not been fully verified. Exact feature-cache
 reconstruction does not establish that enhancement provenance.
 
+The OMSS enhancement stage is prior work and is not a contribution of this
+manuscript. The enhanced audio used here was generated with the MATLAB OMSS
+implementation described in [P. D. Paikrao and S. L. Nalbalwar, “Analysis Modification Synthesis
+Based Optimized Modulation Spectral Subtraction for Speech Enhance-
+ment,” International Journal of Circuits, Systems and Signal Processing,
+vol. 11, pp. 343–352, 2017]. That MATLAB
+source is not included in this repository and is available from the authors
+on request. This repository starts from supplied noisy and OMSS-enhanced audio;
+see `docs/DATASET_INPUTS.md` for the expected inputs.
+
 ## Dataset and evaluation scope
 
 The project dataset is described as:
