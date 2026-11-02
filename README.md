@@ -154,7 +154,12 @@ Redistribution will depend on the applicable source permissions.
 
 ## Remaining work
 
-- Validate a fresh installation using the captured environment records and document any dependency or hardware constraints. 
+- - Complete validation of a fresh installation. A clean-environment import check
+  (Python 3.13.18, CPU only, TensorFlow 2.21.0, librosa 1.0.0) passed with
+  `pip check` reporting no conflicts, but the scripts have not yet been run
+  end to end in that environment. In a separate virtual environment on Colab,
+  set `MPLBACKEND=Agg`. Document any remaining dependency or hardware
+  constraints. 
 - Document dataset selection and reconstruction details.
 - Establish mappings between historical runs and manuscript results.
 - Verify training beyond the single completed one-epoch configuration.
